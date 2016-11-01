@@ -1,0 +1,47 @@
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Name days in Latvia</title>
+
+    <link href="stylesheet.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Name days in Latvia</h1>
+      <div class="container-intro">
+        <h2>Today's date:</h2>
+        <div id="dailyDisplay"></div>
+        <div id="nameDisplay"></div>
+      </div>
+
+      <div class="container">
+        <h2>Find a name day!</h2>
+
+        <div class="finder">
+          <label for="nameInput">Find the date by name:</label>
+          <input type="text" id="nameInput" placeholder="Name"></input>
+
+          <button id="byName" onclick="function()">Find the date!</button>
+        </div>
+
+        <div class="finder">
+          <label for="dateInput">Find the name(s) by date:</label>
+          <input type="text" id="dateInput" placeholder="dd.mm"></input>
+
+          <button id="byDate" onclick="function()">Find the name!</button>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="namedays.js"></script>
+    <script src="namedayfunctions.js"></script>
+  </body>
+</html>

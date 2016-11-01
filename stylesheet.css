@@ -1,0 +1,87 @@
+* {
+  font-family: verdana;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-top: 5rem;
+  text-align: center;
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  padding: 0 0 1rem 0;
+  color: white;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  height: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+  text-align: center;
+  color: white;
+  padding: 1rem;
+}
+
+button {
+  display: block;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 1rem 1.5rem;
+  margin: 2rem auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.wrapper {
+  width: 94%;
+  margin: 0 auto;
+  background-color: teal;
+  padding-bottom: 2rem;
+}
+
+.finder {
+  width: 70%;
+  margin: 0 auto 3rem auto;
+  display: block;
+}
+
+.container-intro {
+  width: 40%;
+  text-align: center;
+  padding: 1rem;
+  margin: 3.5rem auto;
+  border: solid lightgreen 4px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+}
+
+#dailyDisplay, #nameDisplay  {
+  text-align: center;
+  padding: 0.5rem;
+  margin: auto;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 2rem;
+  color: yellow;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
