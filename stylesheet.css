@@ -17,30 +17,34 @@ h2 {
 }
 
 input {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: inline-block;
+  margin: auto;
   border-radius: 5px;
-  height: 2rem;
+  height: 3rem;
   text-align: center;
   font-size: 1rem;
 }
 
+.datepicker input {
+  align-self: center;
+  width: 30%;
+}
+
 label {
-  display: block;
-  text-align: center;
+  display: inline-block;;
+  width: 30%;
+  text-align: left;
   color: white;
   padding: 1rem;
 }
 
 button {
-  display: block;
   background-color: lightgreen;
   border: none;
   border-radius: 25px;
   color: white;
-  padding: 1rem 1.5rem;
-  margin: 2rem auto;
+  padding: 0.5rem 1.5rem;
+  width: 20%;
   text-align: center;
   text-decoration: none;
   font-size: 1rem;
@@ -54,9 +58,19 @@ button {
 }
 
 .finder {
-  width: 70%;
-  margin: 0 auto 3rem auto;
-  display: block;
+  width: 80%;
+  margin: 0 auto 4rem auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  border: lightgreen solid 1px;
+  border-radius: 5px;
+}
+
+.datepicker {
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
 
 .container-intro {
@@ -78,6 +92,10 @@ button {
   font-weight: bold;
   font-size: 2rem;
   color: yellow;
+}
+
+#nameInput {
+  width: 40%;
 }
 
 .container {
