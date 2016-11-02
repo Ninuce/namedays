@@ -1,6 +1,4 @@
 
-
-//Get todays date format is Mon Oct 31 2016 15:09:03 GMT+0200 (EET)
 function getToday() {
   var todaysFullDate = new Date();
   console.log("The full date is: " + todaysFullDate);
@@ -11,7 +9,7 @@ function getToday() {
   return todaysShortDate;
 }
 
-// Take the date and diplay it in the div
+
 function displayDailyNamedays() {
 
   var todayDate = getToday();
@@ -33,12 +31,6 @@ function displayDailyNamedays() {
 
 displayDailyNamedays();
 
-//FIND NAMES BY THE DATE
-
-// * search in JSON, return the names for the specified date
-// * display the names and date in html
-
-// * read the input
 
 function displayName() {
   var searchDay = document.getElementById("daySelect").value;
@@ -46,7 +38,6 @@ function displayName() {
   console.log(searchDay);
   console.log(searchMonth);
 
-// * validate the input (number or not, valid date?)
   if(searchDay <= 31 && searchMonth <= 12) {
     console.log("validation successful, chosen date " + searchDay + "." + searchMonth);
 
@@ -67,23 +58,6 @@ function displayName() {
   }
 }
 
-// function validateDate(input) {
-//   // var inputValidator = isNaN(input);
-//   if (input <= 31) {
-//     console.log("validator returning true");
-//     return true;
-//
-//   } else {
-//     console.log("Date above 31");
-//     return false;
-//   }
-// }
-
-
-
-
-
-// SHOW A DATE WHEN USER SEARCHES BY NAME
 
 function displayDate() {
 
