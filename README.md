@@ -6,5 +6,4 @@ This tool helps to be up to-date with name days in Latvia. It shows the daily na
 Example: To figure out when Alise has a name day, I put her name in "search by name" area and the result retirns a date.
 
 TODO:
-Search by name functionality
-Search by date functionality
+Polish UI for search tools
