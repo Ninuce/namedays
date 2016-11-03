@@ -5,12 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Name days in Latvia</title>
-
     <link href="stylesheet.css" rel="stylesheet">
 
   </head>
+
 
   <body>
     <div class="wrapper">
@@ -24,30 +23,20 @@
       <div class="container">
         <h2>Find a name day!</h2>
 
-
-
-
           <div class="finder">
           <label for="dateInput">Find the name(s) by date:</label>
           <div class="datePicker">
-            <input id="daySelect" type="number" min="1" max="31" placeholder="dd">
-            <input id="monthSelect" type="number" min="1" max="12" placeholder="mm">
+            <input id="daySelect" type="number" min="1" max="31" placeholder="day">
+            <input id="monthSelect" type="number" min="1" max="12" placeholder="month">
           </div>
           <button id="byDate" onclick="displayName()">Find the name!</button>
         </div>
 
-
-
-
-
-
         <div class="finder">
           <label for="nameInput">Find the date by name:</label>
           <input type="text" id="nameInput" placeholder="Name"></input>
-
           <button id="byName" onclick="displayDate()">Find the date!</button>
         </div>
-
       </div>
     </div>
 
